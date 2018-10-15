@@ -13,7 +13,8 @@ const App = () => (
         <Link exact to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/blog">Blog</Link>
-      </nav>
+        <Link to="https://hbtome.com">Browse Inventory</Link>
+        </nav>
       <div className="content">
         <Routes />
       </div>
